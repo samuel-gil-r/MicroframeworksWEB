@@ -54,10 +54,10 @@ You should see in the console:
 Listo para recibir ...
 ```
 
-The server is now running on port **35000**. Open your browser and go to:
+The server is now running on port **8080**. Open your browser and go to:
 
 ```
-http://localhost:35000/index.html
+http://localhost:8080/index.html
 ```
 
 ## Running the tests
@@ -69,7 +69,7 @@ The following URLs can be used to test the system manually from the browser or w
 Test the `/App/hello` REST endpoint with a query parameter:
 
 ```
-http://localhost:35000/App/hello?name=Samuel
+http://localhost:8080/App/hello?name=Samuel
 ```
 
 Expected response: `Hello Samuel`
@@ -77,7 +77,7 @@ Expected response: `Hello Samuel`
 Test the `/App/pi` REST endpoint:
 
 ```
-http://localhost:35000/App/pi
+http://localhost:8080/App/pi
 ```
 
 Expected response: `3.141592653589793`
@@ -85,7 +85,7 @@ Expected response: `3.141592653589793`
 Test static file serving:
 
 ```
-http://localhost:35000/index.html
+http://localhost:8080/index.html
 ```
 
 Expected response: HTML welcome page
@@ -94,17 +94,20 @@ Expected response: HTML welcome page
 
 #### GET /App/hello?name=Samuel
 
-<img width="903" height="153" alt="image" src="https://github.com/user-attachments/assets/e7233e5d-5dab-49a7-9519-d5b72fb06bd4" />
+<img width="853" height="204" alt="image" src="https://github.com/user-attachments/assets/55321a78-034f-4fa3-84fa-715d38b47eb5" />
+
 
 
 #### GET /App/pi
 
-<img width="1220" height="346" alt="image" src="https://github.com/user-attachments/assets/12cb2900-0b76-4627-b4aa-e04ccc5ba38a" />
+<img width="962" height="226" alt="image" src="https://github.com/user-attachments/assets/850b777a-e79f-4dd8-ba25-df763603c827" />
+
 
 
 #### GET /index.html
 
-<img width="899" height="317" alt="image" src="https://github.com/user-attachments/assets/b5cc0a42-137f-4303-89d6-77a96d17e4f3" />
+<img width="938" height="380" alt="image" src="https://github.com/user-attachments/assets/6d62985b-c609-4476-9f12-ffc9375f4c1f" />
+
 
 ### Coding style tests
 
