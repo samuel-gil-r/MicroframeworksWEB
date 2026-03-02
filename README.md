@@ -127,7 +127,7 @@ mvn clean package
 java -jar target/MicroframeworksWEB-1.0-SNAPSHOT.jar
 ```
 
-Make sure port 35000 is open on the server firewall.
+Make sure port 8080 is open on the server firewall.
 
 ## Built With
 
